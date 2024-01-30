@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksudoku=self.webpackChunksudoku||[]).push([[963],{963:n=>{n.exports=JSON.parse('{"text":"***7****3\\n*96******\\n2**85****\\n17*2*4*36\\n*6**7**4*\\n*826*351*\\n****17**8\\n******25*\\n9****2***"}')}}]);

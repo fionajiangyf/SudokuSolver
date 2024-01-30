@@ -1,0 +1,91 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 2px;
+  }
+  
+  .row {
+    display: flex;
+  }
+
+  .row:nth-child(3n) {
+    border-bottom: 3px solid #000;
+  }
+  
+  .cell {
+    width: 40px;
+    height: 40px;
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .cell:nth-child(3n) {
+    border-right: 3px solid #000;
+  }
+  .button-container {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .difficulty-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .easy {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .easy:hover {
+    background-color: #45a049;
+  }
+  
+  .medium {
+    background-color: #ffeb3b;
+    color: #000;
+  }
+  
+  .medium:hover {
+    background-color: #ffd835;
+  }
+
+  .hard {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .hard:hover {
+    background-color: #d32f2f;
+  }
+  
+
+
+  .solve-button {
+    margin-left: 240px;
+    color: black;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .popup-button {
+    padding: 12px 12px; /* Adjust the padding for the desired size */
+    font-size: 12px; /* Adjust the font size if needed */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196f3; /* Adjust the background color */
+    color: #fff;
+  }
+  
+  .popup-button:hover {
+    background-color: #0b7dda; /* Adjust the hover background color */
+  }
